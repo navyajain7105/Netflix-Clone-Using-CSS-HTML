@@ -320,7 +320,7 @@ footer span {
     gap: 10px;
   }
   .btn-red-sm {
-  padding: 9px 20px;
+    padding: 9px 20px;
   }
   .hero-buttons {
     flex-direction: column;
@@ -347,12 +347,12 @@ footer span {
   }
   .secImg video {
     width: 244px;
-    top:88px;
+    top: 88px;
     left: 35px;
   }
   .third .secImg video {
     width: 250px;
-    top:80px;
+    top: 80px;
     left: 35px;
   }
   .faq > :first-child {
@@ -363,7 +363,7 @@ footer span {
     font-size: 20px;
     width: 90%;
   }
-  .subscribe{
+  .subscribe {
     gap: 30px;
   }
   .subscribe-buttons {
@@ -375,6 +375,22 @@ footer span {
   }
   .footer-item {
     align-items: center;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  nav img {
+    transform: scale(0.85);
+  }
+  .nav-buttons {
+    gap: 1px;
+  }
+  .btn-red-sm {
+    padding: 9px 16px;
+    transform: scale(0.75);
+  }
+  nav button {
+    transform: scale(0.75);
   }
 }
 
